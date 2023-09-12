@@ -3,8 +3,8 @@
 
 int main()
 {
-    std::string name;
-    std::cout << "What is your name?\n";
-    std::cin >> name;
-    std::cout << "Hello, " << name << "!\n";
+    char symbol;
+    std::cout << "Hello World!\n";
+    symbol = std::getchar();
+    std::cout << symbol;
 }
